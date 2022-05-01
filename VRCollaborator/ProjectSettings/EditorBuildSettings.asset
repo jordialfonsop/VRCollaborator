@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Mini Toon Office/Scenes/Toon Office sample Scene.unity
-    guid: fac4b8c97c094e84a8f05311fa839d47
   - enabled: 1
-    path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout.unity
-    guid: 2194fe559202da244a6cc0ad8cbc636d
+    path: Assets/IRONHEAD Games/Scenes/HomeScene.unity
+    guid: 66249e54836b48a42acadcc57da3e448
+  - enabled: 1
+    path: Assets/IRONHEAD Games/Scenes/LoginScene.unity
+    guid: b3049d4882a276f4dbae81c84962e9ed
+  - enabled: 1
+    path: Assets/IRONHEAD Games/Scenes/World_School.unity
+    guid: b72244336204212439510723e69fa9f9
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4ddaf688baef47349b61fabd7342cc09, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9efffb9d980b64842a3246ee3220d110, type: 2}

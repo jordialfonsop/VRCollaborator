@@ -278,6 +278,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "UISwitcher Button",
+                    "type": "Button",
+                    "id": "050f81c3-5d4b-4abb-8d17-0c4298582d3b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -456,6 +465,17 @@
                     "action": "Translate Anchor",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "019ceb80-2844-40f6-87b4-3891e75e6e58",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UISwitcher Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
