@@ -40,7 +40,7 @@ public class RoomManager : MonoBehaviourPunCallbacks{
         Debug.Log("The Local player: "+PhotonNetwork.NickName+" joined to "+PhotonNetwork.CurrentRoom.Name+" Player Count: "+PhotonNetwork.CurrentRoom.PlayerCount);
     }
 
-    public override void OnPlayerEnterRoom(Player newPlayer)
+    public override void OnPlayerEnterRoom(Photon.Realtime.Player newPlayer)
     {
         Debug.Log(newPlayer.NickName+"joined to "+PhotonNetwork.CurrentRoom.Name+" Player count: "+PhotonNetwork.CurrentRoom.PlayerCount);
     }
